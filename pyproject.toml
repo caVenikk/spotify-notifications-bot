@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "spotify-notifications-bot"
+version = "1.0.0"
+description = ""
+authors = ["caVenikk <sqqvt1@gmail.com>"]
+readme = "README.md"
+packages = [{include = "spotify_notifications_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^1.10.2"
+openpyxl = "^3.0.10"
+aiogram = "^2.23.1"
+apscheduler = "^3.9.1.post1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

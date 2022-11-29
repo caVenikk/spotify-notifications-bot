@@ -1,0 +1,7 @@
+{
+    "token": "BOT_TOKEN",
+    "path": "PATH_TO_EXCEL_FILE",
+    "white_users": [
+        "IDS OF USERS WHICH CAN USE BOT (INT)"
+    ]
+}
